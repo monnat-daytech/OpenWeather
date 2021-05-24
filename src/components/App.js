@@ -28,6 +28,7 @@ function App() {
 
   return (
     <>
+    <h1>Hello</h1>
       App Weather
       <SearchWeather onClickSearchWeather={onClickSearchWeather} onBtnClearSearch={onBtnClearSearch}/>
       <DisplayWeather itemList={itemList}/>
